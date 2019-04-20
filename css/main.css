@@ -1,0 +1,49 @@
+html { 
+   background: url(../images/img3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+  
+  body {
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+     font-weight: 300;
+  }
+
+.content{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	padding: 25px;
+	height: 650px;
+	width: 400px;
+    margin: 5px auto;
+    margin-top: 35px;
+    
+}
+
+.buttons{
+    background-color: rgba(0,0,0,0.3);
+	color: white;
+	padding: 35px;
+	height: 90px;
+	width: 90px;
+    margin: 5px auto;
+    margin-left: 3px;
+   
+}
+
+.result{
+    background-color: rgba(0,0,0,0.3);
+	color: white;
+	padding: 35px;
+	height: 100px;
+	width: 382px;
+    margin: 5px auto;
+    margin-left: 3px;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}

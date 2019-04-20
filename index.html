@@ -1,0 +1,56 @@
+<html>
+    <head>
+         <link rel="stylesheet" type="text/css" href="css/main.css">
+         <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+         <link href="images/icon.png" rel="icon"/>
+         <script type="text/javascript" src="javascript/main.js"></script>
+         <title>Calculator</title>
+
+    </head>
+
+    <body>
+        <div class="content">
+            <form name="resultpanel">
+                <input type="text" name="result" value="" class="result" " style="font-size : 50px;text-align:right;margin-right:2px" disabled >
+            </form>
+            <table>
+                <tr>
+                    <td><input type="button" class="buttons" value="x²" onclick="square()" style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="%" onclick="percentage()" style="font-size : 30px;padding:2px;"></td>
+					<td><input type="button" class="buttons" value="DEL" onclick="del()" style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="÷" onclick="Insert('/')" style="font-size : 30px;padding:2px;"></td>
+                    
+
+                </tr>
+                <tr>
+                    <td><input type="button" class="buttons" value="7" onclick="Insert(7)" style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="8" onclick="Insert(8)" style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="9" onclick="Insert(9)" style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="x" onclick="Insert('*')" style="font-size : 30px;padding:2px;"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="buttons" value="4" onclick="Insert(4)" style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="5" onclick="Insert(5)" style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="6" onclick="Insert(6)" style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="-" onclick="Insert('-')" style="font-size : 30px;padding:2px;"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="buttons" value="1" onclick="Insert(1)" style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="2" onclick="Insert(2)"style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="3" onclick="Insert(3)"style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="+" onclick="Insert('+')"style="font-size : 30px;padding:2px;"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="buttons" value="C" onclick="clr()" style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="0" onclick="Insert('0')" style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="." onclick="Insert('.')" style="font-size : 30px;padding:2px;"></td>
+                    <td><input type="button" class="buttons" value="=" onclick="equalTo()"style="font-size : 30px;padding:2px;"></td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+    <footer id="footer">
+            <div id="footer-content"><th><center>Copyright © 2019 Pankaj Yadav All Rights Reserved</center></th></div>
+          </footer>
+</html>
